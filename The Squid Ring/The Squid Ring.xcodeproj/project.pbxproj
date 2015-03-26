@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0FD1DC1A9D1C1400BE188D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0FD1DB1A9D1C1400BE188D /* Accelerate.framework */; };
+		BCCADD0D1A9BC15F0009A749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCADD0C1A9BC15F0009A749 /* main.m */; };
+		BCCADD101A9BC15F0009A749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCADD0F1A9BC15F0009A749 /* AppDelegate.m */; };
+		BCCADD131A9BC15F0009A749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCADD121A9BC15F0009A749 /* ViewController.m */; };
+		BCCADD161A9BC15F0009A749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCADD141A9BC15F0009A749 /* Main.storyboard */; };
+		BCCADD181A9BC15F0009A749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCADD171A9BC15F0009A749 /* Images.xcassets */; };
+		BCCADD1B1A9BC15F0009A749 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCADD191A9BC15F0009A749 /* LaunchScreen.xib */; };
+		BCCADD271A9BC15F0009A749 /* The_Squid_RingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCADD261A9BC15F0009A749 /* The_Squid_RingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCADD211A9BC15F0009A749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCADCFF1A9BC15F0009A749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCADD061A9BC15F0009A749;
+			remoteInfo = "The Squid Ring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0FD1DB1A9D1C1400BE188D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BCCADD071A9BC15F0009A749 /* The Squid Ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Squid Ring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCADD0B1A9BC15F0009A749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCADD0C1A9BC15F0009A749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCADD0E1A9BC15F0009A749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCCADD0F1A9BC15F0009A749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCCADD111A9BC15F0009A749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCCADD121A9BC15F0009A749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCCADD151A9BC15F0009A749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCADD171A9BC15F0009A749 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCCADD1A1A9BC15F0009A749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCCADD201A9BC15F0009A749 /* The Squid RingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Squid RingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCADD251A9BC15F0009A749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCADD261A9BC15F0009A749 /* The_Squid_RingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Squid_RingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCADD041A9BC15F0009A749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0FD1DC1A9D1C1400BE188D /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCADD1D1A9BC15F0009A749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCADCFE1A9BC15F0009A749 = {
+			isa = PBXGroup;
+			children = (
+				BC0FD1DB1A9D1C1400BE188D /* Accelerate.framework */,
+				BCCADD091A9BC15F0009A749 /* The Squid Ring */,
+				BCCADD231A9BC15F0009A749 /* The Squid RingTests */,
+				BCCADD081A9BC15F0009A749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCADD081A9BC15F0009A749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADD071A9BC15F0009A749 /* The Squid Ring.app */,
+				BCCADD201A9BC15F0009A749 /* The Squid RingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCADD091A9BC15F0009A749 /* The Squid Ring */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADD0E1A9BC15F0009A749 /* AppDelegate.h */,
+				BCCADD0F1A9BC15F0009A749 /* AppDelegate.m */,
+				BCCADD111A9BC15F0009A749 /* ViewController.h */,
+				BCCADD121A9BC15F0009A749 /* ViewController.m */,
+				BCCADD141A9BC15F0009A749 /* Main.storyboard */,
+				BCCADD171A9BC15F0009A749 /* Images.xcassets */,
+				BCCADD191A9BC15F0009A749 /* LaunchScreen.xib */,
+				BCCADD0A1A9BC15F0009A749 /* Supporting Files */,
+			);
+			path = "The Squid Ring";
+			sourceTree = "<group>";
+		};
+		BCCADD0A1A9BC15F0009A749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADD0B1A9BC15F0009A749 /* Info.plist */,
+				BCCADD0C1A9BC15F0009A749 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCADD231A9BC15F0009A749 /* The Squid RingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADD261A9BC15F0009A749 /* The_Squid_RingTests.m */,
+				BCCADD241A9BC15F0009A749 /* Supporting Files */,
+			);
+			path = "The Squid RingTests";
+			sourceTree = "<group>";
+		};
+		BCCADD241A9BC15F0009A749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCADD251A9BC15F0009A749 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCADD061A9BC15F0009A749 /* The Squid Ring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCADD2A1A9BC15F0009A749 /* Build configuration list for PBXNativeTarget "The Squid Ring" */;
+			buildPhases = (
+				BCCADD031A9BC15F0009A749 /* Sources */,
+				BCCADD041A9BC15F0009A749 /* Frameworks */,
+				BCCADD051A9BC15F0009A749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Squid Ring";
+			productName = "The Squid Ring";
+			productReference = BCCADD071A9BC15F0009A749 /* The Squid Ring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCADD1F1A9BC15F0009A749 /* The Squid RingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCADD2D1A9BC15F0009A749 /* Build configuration list for PBXNativeTarget "The Squid RingTests" */;
+			buildPhases = (
+				BCCADD1C1A9BC15F0009A749 /* Sources */,
+				BCCADD1D1A9BC15F0009A749 /* Frameworks */,
+				BCCADD1E1A9BC15F0009A749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCADD221A9BC15F0009A749 /* PBXTargetDependency */,
+			);
+			name = "The Squid RingTests";
+			productName = "The Squid RingTests";
+			productReference = BCCADD201A9BC15F0009A749 /* The Squid RingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCADCFF1A9BC15F0009A749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Beth Tyler";
+				TargetAttributes = {
+					BCCADD061A9BC15F0009A749 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BCCADD1F1A9BC15F0009A749 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BCCADD061A9BC15F0009A749;
+					};
+				};
+			};
+			buildConfigurationList = BCCADD021A9BC15F0009A749 /* Build configuration list for PBXProject "The Squid Ring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCADCFE1A9BC15F0009A749;
+			productRefGroup = BCCADD081A9BC15F0009A749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCADD061A9BC15F0009A749 /* The Squid Ring */,
+				BCCADD1F1A9BC15F0009A749 /* The Squid RingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCADD051A9BC15F0009A749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCADD161A9BC15F0009A749 /* Main.storyboard in Resources */,
+				BCCADD1B1A9BC15F0009A749 /* LaunchScreen.xib in Resources */,
+				BCCADD181A9BC15F0009A749 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCADD1E1A9BC15F0009A749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCADD031A9BC15F0009A749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCADD131A9BC15F0009A749 /* ViewController.m in Sources */,
+				BCCADD101A9BC15F0009A749 /* AppDelegate.m in Sources */,
+				BCCADD0D1A9BC15F0009A749 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCADD1C1A9BC15F0009A749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCADD271A9BC15F0009A749 /* The_Squid_RingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCADD221A9BC15F0009A749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCADD061A9BC15F0009A749 /* The Squid Ring */;
+			targetProxy = BCCADD211A9BC15F0009A749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCADD141A9BC15F0009A749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCADD151A9BC15F0009A749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCADD191A9BC15F0009A749 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCADD1A1A9BC15F0009A749 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCADD281A9BC15F0009A749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BCCADD291A9BC15F0009A749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCADD2B1A9BC15F0009A749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../framework/**",
+				);
+				INFOPLIST_FILE = "The Squid Ring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCCADD2C1A9BC15F0009A749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../framework/**",
+				);
+				INFOPLIST_FILE = "The Squid Ring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCCADD2E1A9BC15F0009A749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Squid RingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Squid Ring.app/The Squid Ring";
+			};
+			name = Debug;
+		};
+		BCCADD2F1A9BC15F0009A749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Squid RingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Squid Ring.app/The Squid Ring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCADD021A9BC15F0009A749 /* Build configuration list for PBXProject "The Squid Ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCADD281A9BC15F0009A749 /* Debug */,
+				BCCADD291A9BC15F0009A749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCADD2A1A9BC15F0009A749 /* Build configuration list for PBXNativeTarget "The Squid Ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCADD2B1A9BC15F0009A749 /* Debug */,
+				BCCADD2C1A9BC15F0009A749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCADD2D1A9BC15F0009A749 /* Build configuration list for PBXNativeTarget "The Squid RingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCADD2E1A9BC15F0009A749 /* Debug */,
+				BCCADD2F1A9BC15F0009A749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCADCFF1A9BC15F0009A749 /* Project object */;
+}
